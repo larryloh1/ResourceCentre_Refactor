@@ -23,7 +23,7 @@ public class ResourceCentre {//fdfd
 		chromebookList.add(new Chromebook("CB002", "HP Chromebook", "Win 10"));
 
 		int option = 0;
-
+		System.out.println("Camcorder added");
 		while (option != OPTION_QUIT) { //add comment
 
 			ResourceCentre.menu();
