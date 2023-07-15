@@ -24,7 +24,7 @@ public class ResourceCentre {//fdfd
 
 		int option = 0;
 
-		while (option != OPTION_QUIT) {  //fdfs
+		while (option != OPTION_QUIT) { //comment
 			System.out.println("Camcorder added");
 			ResourceCentre.menu();
 			option = Helper.readInt("Enter an option > ");
