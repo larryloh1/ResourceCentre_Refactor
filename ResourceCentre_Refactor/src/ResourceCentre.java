@@ -12,6 +12,7 @@ public class ResourceCentre {//fdfd
 	private static final int OPTION_QUIT = 5;
 
 	public static void main(String[] args) {
+		System.out.println("Camcorder added");
 
 		ArrayList<Camcorder> camcorderList = new ArrayList<Camcorder>();
 		ArrayList<Chromebook> chromebookList = new ArrayList<Chromebook>();
