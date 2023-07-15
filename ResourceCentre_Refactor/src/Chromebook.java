@@ -1,6 +1,5 @@
 
-public class Chromebook extends Item{//13
-	
+public class Chromebook extends Item{//15	
 	private String os;
 
 	public Chromebook(String assetTag, String description, String os) {
