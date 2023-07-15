@@ -29,7 +29,8 @@ public class ResourceCentre {//fdfd
 			ResourceCentre.menu();
 			option = Helper.readInt("Enter an option > ");
 
-			if (option == OPTION_VIEW) {//add comment!
+			if (option == OPTION_VIEW) {
+				System.out.println("Camcorder added");
 				// View all items
 				ResourceCentre.viewAllCamcorder(camcorderList);
 				ResourceCentre.viewAllChromebook(chromebookList);
