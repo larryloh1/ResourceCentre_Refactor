@@ -12,7 +12,7 @@ public class ResourceCentre {//fdfd
 	private static final int OPTION_QUIT = 5;
 
 	public static void main(String[] args) {
-		System.out.println("Camcorder added");
+		
 
 		ArrayList<Camcorder> camcorderList = new ArrayList<Camcorder>();
 		ArrayList<Chromebook> chromebookList = new ArrayList<Chromebook>();
@@ -24,7 +24,7 @@ public class ResourceCentre {//fdfd
 
 		int option = 0;
 
-		while (option != OPTION_QUIT) {
+		while (option != OPTION_QUIT) { //add comment
 
 			ResourceCentre.menu();
 			option = Helper.readInt("Enter an option > ");
