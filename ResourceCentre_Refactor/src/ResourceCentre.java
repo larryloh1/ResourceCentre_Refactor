@@ -30,6 +30,7 @@ public class ResourceCentre {//fdfd
 			option = Helper.readInt("Enter an option > ");
 
 			if (option == OPTION_VIEW) { //this is for view 
+
 				// View all items
 				ResourceCentre.viewAllCamcorder(camcorderList);
 				ResourceCentre.viewAllChromebook(chromebookList);
