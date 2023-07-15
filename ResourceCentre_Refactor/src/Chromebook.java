@@ -11,7 +11,7 @@ public class Chromebook extends Item{
 		return os;
 	}
 	
-	public String toString(){
+	public String toString(){//change tostring
 		
 		// Write your codes here
 		String output = super.toString();
