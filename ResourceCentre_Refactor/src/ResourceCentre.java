@@ -30,7 +30,7 @@ public class ResourceCentre {//fdfd
 			option = Helper.readInt("Enter an option > ");
 
 			if (option == OPTION_VIEW) {
-				System.out.println("Camcorder added");//add new print statement
+				
 				// View all items
 				ResourceCentre.viewAllCamcorder(camcorderList);
 				ResourceCentre.viewAllChromebook(chromebookList);
